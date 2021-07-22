@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "FacTrack",
+    "slug": "FacTrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/androidicon.png",
+    "splash": {
+      "image": "./assets/apnasplash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDhXL_eC9TUOyGTetI_03ttDK75ad7jxLs"
+        }
+      },
+
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.aryan_thakre19.FacTrack"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
